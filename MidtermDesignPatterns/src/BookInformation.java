@@ -12,7 +12,7 @@ public class BookInformation {
 		this.summary = summary;
 	}
 	public String toString() {
-		return (title + " by " + "author. " + yearPublished + " " + summary);
+		return (title + " by " + author + ". " + yearPublished + " " + summary);
 	}
 	public String getTitle()
 	{
